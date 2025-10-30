@@ -1,0 +1,214 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f4f7f9;
+color: #333;
+line-height: 1.6;
+scroll-behavior: smooth;
+}
+
+/* Header */
+.photo {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 5px solid white;
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+
+}
+
+header {
+background: linear-gradient(135deg, #1e90ff, #0073e6);
+color: white;
+text-align: center;
+padding: 50px 20px;
+}
+
+header h1 {
+font-size: 5em;
+margin-top: 15px;
+
+
+}
+
+header p {
+font-size: 4em;
+font-weight: 400;
+opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+background-color: #333;
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+list-style: none;
+flex-wrap: wrap;
+}
+
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+padding: 15px 0;
+display: block;
+transition: 0.3s;
+font-weight: 500;
+}
+
+nav ul li a:hover {
+color: #1e90ff;
+border-bottom: 2px solid #1e90ff;
+}
+
+/* Sections */
+section {
+max-width: 1000px;
+margin: 50px auto;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+section h2 {
+font-size: 2em;
+color: #1e90ff;
+margin-bottom: 20px;
+text-align: center;
+}
+
+/* Project Section */
+.project {
+background-color: #f9fbff;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(30,144,255,0.3);
+}
+
+.project h3 {
+color: #0073e6;
+margin-bottom: 10px;
+}
+
+.project a {
+display: inline-block;
+background-color: #1e90ff;
+color: white;
+padding: 8px 15px;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+background-color: #004080;
+}
+
+/* Contact Section - Blue Theme */
+.contact-form {
+background-color: #e6f0ff;
+color: #003366;
+padding: 30px;
+border-radius: 10px;
+width: 100%;
+margin: 20px auto;
+box-shadow: 0 4px 10px rgba(0, 51, 102, 0.2);
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin: 8px 0;
+border: 1px solid #3399ff;
+border-radius: 5px;
+font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+border-color: #0066cc;
+outline: none;
+box-shadow: 0 0 5px #66b3ff;
+}
+
+.contact-form button {
+background-color: #0066cc;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+background-color: #004080;
+}
+
+/* Footer - Blue Theme */
+footer {
+background-color: #003366;
+color: white;
+text-align: center;
+padding: 15px 0;
+font-size: 14px;
+margin-top: 30px;
+border-top: 2px solid #3399ff;
+}
+
+footer a {
+color: #66b3ff;
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+color: #99ccff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+nav ul {
+flex-direction: column;
+align-items: center;
+}
+
+nav ul li {
+margin: 10px 0;
+}
+
+header h1 {
+font-size: 2em;
+}
+
+.photo {
+width: 150px;
+height: 150px;
+}
+}

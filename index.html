@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <img src="photo.jpg" alt="my photo" class="photo"/>
+    <h1>Solomon Setegn</h1>
+    <p>Web Developer & Video Editor</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!--Home Section-->
+  <section id="home">
+    <h2> Hello,I am Solomon Setegn</h2>
+    <h3> Well Come! to My Portflio </h3>
+
+    <h4> Web Developer and Video Editor</h4>
+    <p> I craft beatiful,user-friendly websities and
+      engaing video content
+
+
+
+ </p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Solomon Setegn, a passionate web developer and video editor with a keen eye for detail and a
+      commitment to creating engaging digital experiences.
+    </p>
+    <p>
+      My journey in web development started with a fascination for how technology can connect people
+      and share ideas across the globe.
+    </p>
+    <p>
+      I focus on building responsive, user-friendly websites that not only look great but also perform
+      exceptionally well.
+    </p>
+    <p>
+      As a video editor, I bring stories to life through careful composition, timing, and visual effects.
+      I believe in the power of visual communication and how it can inspire, educate, and entertain audiences.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+      <h3>Snake Game (HTML)</h3>
+      <p>
+        The Snake Game is a fun web game where you control a snake that moves on the screen to eat food.
+        Each time the snake eats, it becomes longer and your score increases. If the snake touches itself
+        or a wall, the game ends.
+      </p>
+      <p>
+      <a href="https://github.com/gechona/snake-game" target="_blank">View Project</a>
+    </p>
+  
+
+    </div>
+
+    <div class="project">
+      <h3>Temperature Converter (C++)</h3>
+      <p>
+        A small C++ program that converts temperatures between Celsius, Fahrenheit, and Kelvin using loops
+        and a switch statement to accurate and easy to use.
+      </p>
+      <p>
+      <a href="https://github.com/gechona/temp-converter" target="_blank">View Project</a>
+    </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+
+    <h3>Web Development</h3>
+    <ul>
+      <li>HTML5 - 90%</li>
+      <li>CSS3 - 85%</li>
+      <li>JavaScript - 75%</li>
+    </ul>
+
+    <h3>Video Editing</h3>
+    <ul>
+      <li>Adobe Premiere Pro - 85%</li>
+      <li>After Effects - 75%</li>
+      <li>Color Grading - 80%</li>
+      <li>Motion Graphics - 70%</li>
+    </ul>
+
+    <h3>C++ Programming</h3>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:solo68343@gmail.com" target="_blank">solo68343@gmail.com</a></p>
+    
+    <p>GitHub: <a href="https://github.com/gechona" target="_blank">github.com/gechona</a></p>
+    <p>Telegram: <a href="https://t.me/Sol_5055" target="_blank">@Sol_5055</a></p>
+    <p>Phone: 
+  <a href="tel:+251961824600">+251961824600</a> / 
+  <a href="tel:+251722120213">+251722120213</a>
+</p>
+
+<!-- Contact Form -->
+<div class="contact-form">
+  <h3>Send Me a Message</h3>
+  <form>
+    <label for="name">Name:</label><br />
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="Enter your name" 
+      pattern="[A-Za-z\s]{3,}" 
+      title="Name should contain only letters and at least 3 characters"
+      required 
+    /><br />
+
+<label for="email">Email:</label><br />
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="Enter your email" 
+      title="Enter a valid email address (e.g. example@mail.com)" 
+      required 
+    /><br />
+
+    <label for="phone">Phone Number:</label><br />
+    <input 
+      type="tel" 
+      id="phone" 
+      name="phone" 
+      placeholder="e.g. +251961824600"
+      pattern="^\+?[0-9]{10,13}$" 
+      title="Enter a valid phone number (10–13 digits, include + for country code)" 
+      required 
+    /><br />
+
+    <label for="password">Password:</label><br/>
+    <input 
+      type="password" 
+      id="password" 
+      name="password" 
+      placeholder="Enter your password" 
+      required 
+    /><br/>
+
+    <label for="message">Message:</label><br />
+    <textarea 
+      id="message" 
+      name="message" 
+      rows="6" 
+      placeholder="Write your message..." 
+      required
+    ></textarea><br />
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+    
+
+    <footer>
+    <div class="copyright">
+      <p>@copy;2025 Solomon Setegn.All rights reserved.</p>
+    </footer>
+
+    </div>
+  </section>
+</body>
+</html
